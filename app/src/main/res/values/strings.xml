@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NotificationDemo</string>
+    <string name="CHANNEL_ID_01">channelID01</string>
+    <string name="channel_name">channel01</string>
+    <string name="channel_description">channel_description01</string>
+    <string name="snooze">自定义事件</string>
+</resources>

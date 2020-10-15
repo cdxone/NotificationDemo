@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/btn_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="创建通知"
+            />
+        <Button
+            android:id="@+id/btn_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="去掉进度条"
+            />
+        <Button
+            android:id="@+id/btn_show_not"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="在Service中启动通知"
+            />
+        <Button
+            android:id="@+id/btn_show_not2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="通常的方式启动通知"
+            />
+        <Button
+            android:id="@+id/btn_hide_not"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="隐藏通知"
+            />
+        <Button
+            android:id="@+id/btn_update_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="更新进度"
+            />
+    </LinearLayout>
+</ScrollView>
